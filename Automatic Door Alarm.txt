@@ -1,0 +1,31 @@
+ASSIGNMENT - 1 [ Smart Home using 2+ sensors, Led, Buzzer in single code and circuit. ]
+
+Abstract:
+
+Security has always been a major concern for all of us and there are many Hi tech and 
+IoT based security and surveillance system are available in the market.
+Intruder or Burglar Alarm is one of the classic and popular project among the Electronics students and hobbyists.
+We have also built many Burglar Alarms based on various technologies:
+	Laser Security Alarm Circuit	IR Based Security Alarm
+
+
+	Burglar Alarm using PIR
+	        GSM Based Security System
+Today we are adding one more Security Alarm in our list which is based on Ultrasonic Sensor.
+ This Arduino Controlled Door alarm can be installed near the door to detect the presence of anybody at the door.
+ Whenever somebody comes in the range of Ultrasonic sensor, buzzer starts beeping.
+ You can adjust the sensor detection range according to your door.
+ This system can also serve the purpose of Motion Detector also it measures the temperature of a person and 
+ inform us through the temperature sensor.
+
+The LED is glown to indicate that the circuit is active.
+Required Components:
+
+•	Ultrasonic Sensor
+•	Buzzer
+•	Arduino Uno
+•	Temperatue sensor
+•	Led
+
+Reference Link to view my Full Project in Tinkercad :
+https://www.tinkercad.com/things/aQIDxI4O0B4
