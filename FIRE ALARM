@@ -1,0 +1,11 @@
+ABSTRACT:
+Fire safety is one of the major concerns for a safe home environment.
+Current implementations of home or workplace environment monitoring systems consist of rudimentary smoke detectors devoid of any communication capabilities.
+Recent trends in the industry have shown a growth in the use of smart devices at homes and with the recent advances in areas of machine learning and data sciences,
+this trend is expected to evolve at a rate faster than ever before. 
+These smart devices constantly monitor the data of their environment and make decisions by performing data analytics on those observations.
+Amazon Echo is one such example where an 'always-listening' device responds intelligently to a speaker's command giving its users a Smart Home experience.
+In this implementation, we harness the developments in aforementioned areas to make Smart Fire Alarm System
+The project invloves  Arduino uno,LM-35 Temperature sensor,gas sensor,resistors,Bread board,LED,piezo Buzzer,jump wires.
+In this temperature sensor takes in input and rise in temperature and voltage buzzer rings, for Gas sensor is also used to detect smoke along with the concentration of gases
+https://www.tinkercad.com/things/iqpj5XwZj8e
