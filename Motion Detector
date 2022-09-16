@@ -1,0 +1,8 @@
+ ABSTRACT
+    In security applications, a motion sensor is a device that detects human presence,  usually inside a building or in the immediate vicinity of a building. These sensors 
+detect the presence of a person or object that interrupts the light beam by passing through its path. Typically used for threshold safety, entry notification 
+and startup activation, it has become a mainstay product for many industries from automatic door manufacturers to premises security companies. This project was designed to automaticallytrigger on/off a relay by the use of a microcontroller. The principle of motion detection using active infrared sensor forms the basis for its operation. A transmitter/receiver system is used to send an 
+invisible infrared light beam through the air along  a desired path. When the beamis interrupted, a signal is sent to the microcontroller to trigger the relay. On the 
+whole, this device can be used to achieve automatic switching in public or residential bulindings.
+ REFFER THIS LINK TO VIEW MY FULL PROJECT:
+     https://www.tinkercad.com/things/ggVCbar66SZ
