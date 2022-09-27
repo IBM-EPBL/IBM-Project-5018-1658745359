@@ -1,0 +1,30 @@
+import requests
+
+a="https://api.openweathermap.org/data/2.5/weather?q=Coimbatore,IN&appid=036535808c2e4b3bdc2d9dfddff6b61d";
+r=requests.get(url=a)
+data =r.json()
+tem =data['main']['temp']
+min_tem=data['main']['temp_min']
+max_tem=data['main']['temp_max']
+hum =data['main']['humidity']
+print("temperature (in kelvin)is :",tem)
+print("humidity is :",hum)
+print("minimum temperature is :",min_tem)
+print("maximum temperature is :",max_tem)
+if(tem<max_tem and hum==70):
+    print("It's Normal Weather")
+if(tem>300):
+    print("It's Too Hot Climate")
+if(tem<298):
+    print("It's Pleasant Weather")
+if(hum>60 and tem==max_tem):
+    print("It's Normal Weather")
+if(hum>80):
+    print("It's Foggy Climate")
+if(hum<50):
+    print("It's Dry Climate")
+if(tem==max_tem):
+    print("Alarm Notifies It Is a High Temperature")
+        
+else:
+    print("Invalid Data")
