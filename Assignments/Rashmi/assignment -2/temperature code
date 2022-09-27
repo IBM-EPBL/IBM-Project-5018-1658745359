@@ -1,0 +1,12 @@
+temp =int(input("Enter temperature value:"))
+hum =int(input("Enter humidity value:"))
+def temperatureandhumidity(temp,hum):
+    if temp<=100:
+        print("The temperature is normal")
+    else:
+        print("The temperature is high")
+    if hum==(30,60):
+        print("the humidity is normal")
+    else :
+        print("The humidity is high")
+temperatureandhumidity(temp,hum)
