@@ -1,0 +1,20 @@
+import requests
+a = "https://api.openweathermap.org/data/2.5/weather?q=Coimbatore,IN&appid=6a3112371b0954ca61c6ee25e0b60145"
+r = requests.get(url=a)
+data = r.json()
+tem = data['main']['temp']
+max_temp = data['main']['temp_max']
+min_temp = data['main']['temp_min']
+hum = data['main']['humidity']
+print("Temperature is:",tem)
+print("Maximum Temperature is:",max_temp)
+print("Minimum Temperature is:",min_temp)
+print("Humidity is:",hum)
+if(tem>200 and tem<300):
+    print("Normal Temperature")
+if(tem<100):
+    print("Very Low Temperature")
+if(tem>300):
+    print("Alarm! High Temperature")
+if(hum>60):
+    print("Alarm! High Humidity")
