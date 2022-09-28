@@ -1,9 +1,0 @@
-import random
-temp=random.uniform(86,150)
-hum=random.uniform(20,86)
-print('temp:',temp)
-print('humudity:',hum)
-if(temp<=150):
-    print('high temperature')
-if(hum<=80):
-    print('high humidity')
