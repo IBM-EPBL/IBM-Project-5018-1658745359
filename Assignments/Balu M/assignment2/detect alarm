@@ -1,0 +1,9 @@
+import random
+tr=random.randint(80,100)
+hr=random.randint(30,50)
+print("Temprature:", tr)
+print("Humidity:",hr)
+if(tr>95):
+    print("Alarm ! High Temprature")
+if(hr>40):
+    print("Alarm ! High Humitidy")
